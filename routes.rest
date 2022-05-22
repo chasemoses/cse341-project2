@@ -1,0 +1,16 @@
+### GET ALL PRODUCTS
+GET http://localhost:8080/products
+
+### CREATE ONE PRODUCT
+POST http://localhost:8080/products
+Content-Type: application/json
+
+{
+    "name": "Double shot",
+    "description": "I need a double shot of whatever my kids are on",
+    "category": "Clothing",
+    "type": "Sweatshirt",
+    "size": "Large",
+    "color": "Red",
+    "price": 13.50
+}
