@@ -1,0 +1,12 @@
+### GET ALL PRODUCTS
+GET http://localhost:8080/designs
+
+### CREATE ONE PRODUCT
+POST http://localhost:8080/designs
+Content-Type: application/json
+
+{
+    "name": "Father's Day Gift",
+    "material": "Vinyl",
+    "price": 5.50
+}
