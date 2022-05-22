@@ -1,0 +1,14 @@
+### GET ALL INVENTORY ITEMS
+GET http://localhost:8080/inventory
+
+### CREATE ONE INVENTORY ITEM
+POST http://localhost:8080/inventory
+Content-Type: application/json
+
+{
+    "category": "Clothing",
+    "type": "Shirt",
+    "size": "Medium",
+    "color": "Pink",
+    "quantity": 5
+}
