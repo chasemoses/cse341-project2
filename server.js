@@ -3,6 +3,8 @@ const mongodb = require('./database/mongodb');
 const app = express();
 const port = process.env.PORT || 8080;
 
+require('dotenv').config();
+
 app
 .use((req, res, next) => {
     res.setHeader('Access-Control-Allow-Origin', '*');
